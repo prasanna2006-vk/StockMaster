@@ -4,6 +4,7 @@
   "description": "Full-stack MERN Inventory Management System for College Project",
   "scripts": {
     "start": "node server/server.js",
+    "dev": "node server/server.js",
     "server": "node server/server.js",
     "seed": "node server/seed.js",
     "client": "npm start --prefix client",
