@@ -1,0 +1,22 @@
+{
+  "name": "inventory-management-system-mern",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Inventory Management System for College Project",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "seed": "node server/seed.js",
+    "client": "npm start --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "inventory-management"
+  ],
+  "author": "College Project",
+  "license": "MIT"
+}
